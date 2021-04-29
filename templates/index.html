@@ -31,7 +31,7 @@
                         <div class="input-group-append">
                             <span class="input-group-text">All</span>
                         </div>
-                        <input type="text" name="search" class="form-control" placeholder="enter search query"  value="{{data.query}}">
+                        <input type="text" name="search" class="form-control" placeholder="Search Here..."  value="{{data.query}}">
                         <div class="input-group-append" style="background-color: #febd69;">
                           <button class="btn btn-outline-secondary" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
                         </div>
@@ -41,11 +41,11 @@
 
                 <!-- credit -->
                 <div class="col-md-1 name">
-                    <a href="https://github.com/abhashpanwar/autoscraper" target="_blank"><small class="">Hello, Abhash</small><br>
+                    <a href="https://github.com/Himank-J" target="_blank"><small class="">Hello, Himank</small><br>
                     <span><b>GitHub</b></span></a>
                 </div>
 
-                <!-- cart iamge -->
+                <!-- cart image -->
                 <div class="col-md-1">
                     <img src="{{url_for('static',filename='cart.png')}}" width="80px" height="40px"/>
                 </div>
@@ -108,7 +108,7 @@
                         </div>                         
                         <center>
                             <a class="color-b" href="{{url_for('static',filename='/searchedData.csv')}}" target="_blank">Download data in CSV format</a>
-                            <h2>The END</h2>
+                            <h2>Search Limit Reached</h2>
                         </center>           
                     </div>  
                 {% else %}
